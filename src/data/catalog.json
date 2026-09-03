@@ -1,0 +1,209 @@
+{
+  "company": {
+    "name": "NextGen Business Consultancy",
+    "tagline": "Digital Marketing & Business Growth Solutions",
+    "logo": "/logo.jpeg",
+    "address": "",
+    "phone": "+91 79041 51624",
+    "email": "info@nextgenbusiness.co.in",
+    "website": "www.nextgenbusiness.co.in",
+    "gstin": "",
+    "brandPrimaryColor": "#0B2050",
+    "brandAccentColor": "#D4A24C",
+    "quoteNumberPrefix": "NGBC",
+    "defaultValidityDays": 15,
+    "defaultTerms": [
+      "This quotation is valid for the number of days mentioned above from the date of issue.",
+      "All prices mentioned are exclusive of applicable GST unless stated otherwise.",
+      "A booking advance of 50% is required to commence work; balance is due on delivery/completion.",
+      "Any scope beyond what is listed in this quotation will be billed separately.",
+      "Advertising/ad spend (if applicable) is billed separately on actuals and is not included in the service fee.",
+      "Delivery timelines will be confirmed on order confirmation and receipt of required inputs from the client."
+    ]
+  },
+  "categories": [
+    { "id": "packages", "name": "Combo Packages" },
+    { "id": "seo", "name": "SEO" },
+    { "id": "website", "name": "Website Development" },
+    { "id": "marketing", "name": "Social Media & Advertising" },
+    { "id": "branding", "name": "Branding & Design" },
+    { "id": "apps", "name": "App Development" }
+  ],
+  "services": [
+    {
+      "id": "seo-monthly",
+      "categoryId": "seo",
+      "name": "SEO - Search Engine Optimization",
+      "description": "Keyword Research, On-Page Optimization, GMB Setup, 2 Blog Posts/Month, Competitor Analysis, Monthly Performance Report",
+      "basePrice": 15000,
+      "unit": "/ month",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "website-landing",
+      "categoryId": "website",
+      "name": "Website Development - Landing Page",
+      "description": "1 Conversion-Focused Landing Page, Mobile Responsive Design, Contact Form, Basic SEO Setup, 1 Revision",
+      "basePrice": 15000,
+      "unit": "/ project",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "website-multipage",
+      "categoryId": "website",
+      "name": "Website Development - Multi Page",
+      "description": "Up to 3 Strategic Pages, UI/UX Design, Content Writing, Basic SEO, Performance Optimization, 2 Revisions",
+      "basePrice": 35000,
+      "unit": "/ project",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "website-dynamic",
+      "categoryId": "website",
+      "name": "Dynamic / CMS Website",
+      "description": "Dynamic Features, Custom Integration, Database Integration, Admin Panel, Scalable Architecture, 2 Revisions",
+      "basePrice": 50000,
+      "unit": "starting",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "website-ecommerce",
+      "categoryId": "website",
+      "name": "E-Commerce Website",
+      "description": "E-Commerce Website, Product Catalogue, Inventory Management, Order Management, Payment Gateway, 3 Revisions",
+      "basePrice": 150000,
+      "unit": "starting",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "social-media",
+      "categoryId": "marketing",
+      "name": "Social Media Marketing",
+      "description": "2 Platforms, 12 Posts + 3 Reels/Month, Graphic Content & Captions, Community Management, Profile Optimization, Hashtag Research, Monthly Analytics Report",
+      "basePrice": 9999,
+      "unit": "/ month",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "ppc",
+      "categoryId": "marketing",
+      "name": "Digital Advertising / PPC",
+      "description": "Google/Facebook Ads, Campaign Setup, Keyword Research, Ad Copywriting, Budget Management, Conversion Tracking, Monthly Performance Report",
+      "basePrice": 12000,
+      "unit": "/ month",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "brand-identity",
+      "categoryId": "branding",
+      "name": "Brand Identity",
+      "description": "Logo Design, Business Card, Letterhead, Brand Guidelines, Favicon, Email Signature, Final Brand Files",
+      "basePrice": 25000,
+      "unit": "one-time",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "logo-design",
+      "categoryId": "branding",
+      "name": "Logo Design",
+      "description": "3 Logo Concepts, Typography & Colour Palette, 2 Revisions, Final Files, Transparent Version, Favicon",
+      "basePrice": 8000,
+      "unit": "one-time",
+      "taxPct": 18,
+      "active": true
+    },
+    {
+      "id": "mobile-app",
+      "categoryId": "apps",
+      "name": "Mobile App Development",
+      "description": "Android & iOS App Development based on project requirements",
+      "basePrice": 0,
+      "unit": "custom",
+      "taxPct": 18,
+      "active": true,
+      "isCustomQuote": true
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg-startup-launch",
+      "categoryId": "packages",
+      "name": "Startup Launch",
+      "description": "Everything a new business needs to get online and start marketing.",
+      "basePrice": 50000,
+      "unit": "package",
+      "taxPct": 18,
+      "active": true,
+      "isPackage": true,
+      "includes": [
+        "Basic Website (2-3 Pages)",
+        "Logo Design",
+        "Business Card Design",
+        "Basic SEO Setup",
+        "Social Media Profile Setup (2 Platforms)",
+        "1 Month Social Media Management"
+      ]
+    },
+    {
+      "id": "pkg-business-growth",
+      "categoryId": "packages",
+      "name": "Business Growth",
+      "description": "For businesses ready to scale their online presence and lead generation.",
+      "basePrice": 150000,
+      "unit": "package",
+      "taxPct": 18,
+      "active": true,
+      "isPackage": true,
+      "includes": [
+        "Professional Website (4-5 Pages)",
+        "Complete Brand Identity",
+        "3 Months SEO Services",
+        "3 Months Social Media Management",
+        "Content Creation - 9 Blog Posts",
+        "Product Photography - 15 Products"
+      ]
+    },
+    {
+      "id": "pkg-enterprise",
+      "categoryId": "packages",
+      "name": "Enterprise Solution",
+      "description": "Full-scale digital growth with dedicated support.",
+      "basePrice": 300000,
+      "unit": "package",
+      "taxPct": 18,
+      "active": true,
+      "isPackage": true,
+      "includes": [
+        "E-Commerce Website / Custom Web Application",
+        "Premium Brand Development & Strategy",
+        "6 Months Comprehensive SEO",
+        "6 Months Full Social Media Management",
+        "PPC Campaign Management",
+        "Dedicated Account Manager + Priority Support"
+      ]
+    },
+    {
+      "id": "pkg-customised",
+      "categoryId": "packages",
+      "name": "Customised Combo Package",
+      "description": "Tailored to your business goals, requirements and budget.",
+      "basePrice": 0,
+      "unit": "custom",
+      "taxPct": 18,
+      "active": true,
+      "isPackage": true,
+      "isCustomQuote": true,
+      "includes": [
+        "Built specifically around what this customer needs"
+      ]
+    }
+  ]
+}
