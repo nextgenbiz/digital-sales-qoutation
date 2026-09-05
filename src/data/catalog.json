@@ -1,16 +1,16 @@
 {
   "company": {
-    "name": "NextGen Business Consultancy",
+    "name": "Quantivo Digital",
     "tagline": "Digital Marketing & Business Growth Solutions",
-    "logo": "/logo.png",
+    "logo": "/Quantivo-Digital.png",
     "address": "",
-    "phone": "+91 79041 51624",
-    "email": "info@nextgenbusiness.co.in",
-    "website": "www.nextgenbusiness.co.in",
+    "phone": "+91 85117 24350",
+    "email": "info@quantivodigitals.com",
+    "website": "www.quantivodigitals.com",
     "gstin": "",
     "brandPrimaryColor": "#0B2050",
     "brandAccentColor": "#D4A24C",
-    "quoteNumberPrefix": "NGBC",
+    "quoteNumberPrefix": "QD",
     "defaultValidityDays": 15,
     "defaultTerms": [
       "This quotation is valid for the number of days mentioned above from the date of issue.",
