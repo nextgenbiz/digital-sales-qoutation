@@ -352,7 +352,7 @@ function makeStyles(navy: string, accent: string) {
     header: { height: 118, position: "relative" },
     headerRow: { position: "absolute", top: 0, left: 0, right: 0, height: 118, flexDirection: "row" },
     brandBox: { width: "43%", paddingLeft: 12, paddingTop: 26, justifyContent: "flex-start" },
-    logo: { height: 52, width: 150, objectFit: "contain", objectPositionX: 0 },
+    logo: { height: 68, width: 180, objectFit: "contain", objectPositionX: 0 },
     brandName: { fontFamily: SANS, fontWeight: "bold", color: navy, lineHeight: 1.15 },
     brandSite: { fontSize: 7.5, fontFamily: SANS, fontWeight: "bold", color: accent, marginTop: 3 },
     plate: { flex: 1, paddingTop: 22, paddingRight: 14, alignItems: "center" },
